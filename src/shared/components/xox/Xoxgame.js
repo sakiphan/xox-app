@@ -140,7 +140,7 @@ const Xoxgame = () => {
       <h1>XOX</h1>
       <h2 className="alert alert-warning">{message}</h2>
       <button onClick={newGame} className="btn btn-outline-primary w-100">
-        Yeni Oyun
+        Yeni Oyunn
       </button>
       {/* map methodu ile  her game ögesi için div oluşturduk. onClick ile markGame state'ini çağırdık ve kutuların işaretlenmesini sağladık. her bir box burada game'in değerini alır. Yani game X veya O değerine sahipse box bu değerleri döner. */}
       <div className="row mt-5">
